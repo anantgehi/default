@@ -1,0 +1,27 @@
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+.status {
+    margin-bottom: 10px;
+    font-size:xx-large;
+    font-weight: bold;
+  }
+  
+.headline{
+    font-size:xx-large;
+    font-style: oblique;
+}
+
+.board{
+        margin: auto;
+      align-items: center;
+}
+
+.table{
+    padding-left: 42%;
+    padding-top: 3%;
+}
+  
