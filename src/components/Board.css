@@ -1,27 +1,28 @@
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .status {
-    margin-bottom: 10px;
-    font-size:xx-large;
-    font-weight: bold;
-  }
-  
-.headline{
-    font-size:xx-large;
-    font-style: oblique;
+  margin-bottom: 10px;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
-.board{
-        margin: auto;
-      align-items: center;
+.headline {
+  font-size: xx-large;
+  font-style: oblique;
 }
 
-.table{
-	padding-left:10%;
-    padding-top: 3%;
+.board {
+  margin: auto;
+  align-items: center;
 }
-  
+
+.table {
+  display: inline-block;
+  verticle-align: middle;
+  margin: auto;
+  align-items: center;
+}
