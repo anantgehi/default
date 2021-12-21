@@ -16,9 +16,8 @@ function Board(){
             return;
           }
         squares[i] = xIsNext?"X":"O";
-        
+        setSquares(squares);
         setXIsNext(!xIsNext);
-        
         setCount(count+1);
         console.log(count);
     }
