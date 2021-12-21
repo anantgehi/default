@@ -40,7 +40,7 @@ function Board(){
 
     return (
         <div className="board">
-          <div className="headline"><h2>Tic-Tac-Toe(ReactJS) #AG</h2></div>
+          <div className="headline"><h2>Tic-Tac-Toe(ReactJS) #AnantG</h2></div>
           <div className="status">{status}</div>
           <div className="table">
           <div className="board-row">
